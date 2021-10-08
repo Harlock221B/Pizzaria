@@ -22,5 +22,5 @@ def buscar(request):
         cardapios = Cardapio.objects.all()
     return render(request,'home/cardapio.html',{'cardapios':cardapios})
 
-def 
+
 # Create your views here.
